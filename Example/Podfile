@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TimeToGate_Tests' do
+  pod 'TimeToGate', :path => '../'
+  
+  
+end
