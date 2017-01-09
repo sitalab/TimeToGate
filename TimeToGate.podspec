@@ -17,10 +17,10 @@ The calculation will respond with a breakdown of the total time depending on var
 .
                        DESC
 
-  s.homepage         = 'https://github.com/sitalab/TimeToGate'
+  s.homepage         = 'https://github.com/sitalab/TimeToGate-SDK-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'safaakhalaf' => 'safaa@itx.com.lb' }
-  s.source           = { :git => 'https://github.com/sitalab/TimeToGate.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sitalab/TimeToGate-SDK-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
