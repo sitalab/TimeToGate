@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		05A249F6BA8A6003EF5B193B0A56A0A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638FC09FB4335669CAE4B13A2EB84320 /* UIKit.framework */; };
-		16ABE21C2E3E67915209B1B8AFD9D5B8 /* libTimeToGate.a in Sources */ = {isa = PBXBuildFile; fileRef = 3421C81EC7B73E008817DEDB6D98EEDE /* libTimeToGate.a */; };
 		289D6A0BC4ABDD65EEDCDFEF2FB755F3 /* TimeToGate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4323F8C599E9FAB897CEB2D5E8AF374C /* TimeToGate-dummy.m */; };
 		3C3B40635C64F357AD014B1F87FF5E2C /* Pods-TimeToGate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9ABC0E88EEB3371461B4DC87DAD17F /* Pods-TimeToGate_Tests-dummy.m */; };
 		60323F9F7DD8AE7CDAA9386DDBE1A2DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */; };
 		77289F9D68BF7BC6A73C995A1958F314 /* Pods-TimeToGate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C916E3A60EEA590D19776A99A8C2D17C /* Pods-TimeToGate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5E276CD40B15047FDB914F4B82AD807 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4197870F25D718921A9424035DAEC588 /* CoreLocation.framework */; };
 		ACB32A8D73F8FE97B1E118370CBFC670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */; };
-		BAA0436963E2E5CA9791732A23CD1466 /* TimeToGateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA101EAE9CC2168554B7EF2C28E6B2B /* TimeToGateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF3321D3F07750583890D60713AC567D /* TimeToGate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF1C37D1961DC245783A11D1870D5FB /* TimeToGate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB1A65D1E23AD8000ADCB8B /* TimeToGateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB1A65B1E23AD8000ADCB8B /* TimeToGateManager.h */; };
+		CCB1A65E1E23AD8000ADCB8B /* libTimeToGate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB1A65C1E23AD8000ADCB8B /* libTimeToGate.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,30 +30,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09ED92CD154FCFB195CF3EDA3DDC6EAF /* TimeToGate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimeToGate.framework; path = TimeToGate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09ED92CD154FCFB195CF3EDA3DDC6EAF /* TimeToGate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeToGate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5F0C3D56F3AFCD6DE281FF8510F4FC /* Pods-TimeToGate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeToGate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		13E027D2039155DD6BDD84A86739F1E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B4BE872BF401E20A78A5894AEAD464F /* Pods-TimeToGate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TimeToGate_Tests.modulemap"; sourceTree = "<group>"; };
+		1B4BE872BF401E20A78A5894AEAD464F /* Pods-TimeToGate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimeToGate_Tests.modulemap"; sourceTree = "<group>"; };
 		2E44F00C7CE5C7F86BF041F91C22DD0A /* Pods-TimeToGate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeToGate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3421C81EC7B73E008817DEDB6D98EEDE /* libTimeToGate.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libTimeToGate.a; sourceTree = "<group>"; };
 		3C9ABC0E88EEB3371461B4DC87DAD17F /* Pods-TimeToGate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeToGate_Tests-dummy.m"; sourceTree = "<group>"; };
 		4197870F25D718921A9424035DAEC588 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		4323F8C599E9FAB897CEB2D5E8AF374C /* TimeToGate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeToGate-dummy.m"; sourceTree = "<group>"; };
 		58F3636F3618DA68F77C9ACE4311F339 /* Pods-TimeToGate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeToGate_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		638FC09FB4335669CAE4B13A2EB84320 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7FA101EAE9CC2168554B7EF2C28E6B2B /* TimeToGateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TimeToGateManager.h; sourceTree = "<group>"; };
-		8907D76B37FD9B475D599F502D89BC8A /* TimeToGate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TimeToGate.modulemap; sourceTree = "<group>"; };
+		8907D76B37FD9B475D599F502D89BC8A /* TimeToGate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TimeToGate.modulemap; sourceTree = "<group>"; };
 		8FAE197BC650E8CCF1FB272DF38C0C69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		92F5477347DFEFD9B1DAC49D01B7FA9F /* TimeToGate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeToGate.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1AB8C7E09EA0EA5CC47C112525C72BF /* Pods-TimeToGate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeToGate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AFF1C37D1961DC245783A11D1870D5FB /* TimeToGate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeToGate-umbrella.h"; sourceTree = "<group>"; };
 		BC610F5458C26BD51C3A20D92D5242BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C916E3A60EEA590D19776A99A8C2D17C /* Pods-TimeToGate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeToGate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CCB1A6581E23AD8000ADCB8B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		CCB1A65B1E23AD8000ADCB8B /* TimeToGateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeToGateManager.h; sourceTree = "<group>"; };
+		CCB1A65C1E23AD8000ADCB8B /* libTimeToGate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTimeToGate.a; sourceTree = "<group>"; };
 		D5B2F040940E349FF6362C5FCF3C5765 /* Pods-TimeToGate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeToGate_Tests-resources.sh"; sourceTree = "<group>"; };
 		E1DF2F8B7DFBD75E37A8CE07339307AA /* Pods-TimeToGate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeToGate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E37BD9A1412D524B08841E49041271C2 /* TimeToGate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeToGate-prefix.pch"; sourceTree = "<group>"; };
-		FC286EABE27CCAE01D60FA1666CF5DD4 /* Pods_TimeToGate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeToGate_Tests.framework; path = "Pods-TimeToGate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC286EABE27CCAE01D60FA1666CF5DD4 /* Pods_TimeToGate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeToGate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB1A65E1E23AD8000ADCB8B /* libTimeToGate.a in Frameworks */,
 				60323F9F7DD8AE7CDAA9386DDBE1A2DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,15 +95,6 @@
 				09ED92CD154FCFB195CF3EDA3DDC6EAF /* TimeToGate.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0E3ED1709F6519010BD7BD9ABF8E4B6C /* TimeToGate */ = {
-			isa = PBXGroup;
-			children = (
-				7FA101EAE9CC2168554B7EF2C28E6B2B /* TimeToGateManager.h */,
-			);
-			name = TimeToGate;
-			path = TimeToGate;
 			sourceTree = "<group>";
 		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
@@ -151,8 +144,8 @@
 		555A2B0DC12FC2619880C4AF78410EF4 /* TimeToGate */ = {
 			isa = PBXGroup;
 			children = (
+				CCB1A6561E23AD8000ADCB8B /* TimeToGate */,
 				DFAF8A0F46E67793E09C5DB95D1E6DFB /* Support Files */,
-				F4B64C92BC155FAB7017D3B58154CAD4 /* TimeToGate */,
 			);
 			name = TimeToGate;
 			path = ../..;
@@ -169,13 +162,38 @@
 			);
 			sourceTree = "<group>";
 		};
-		DB6C88034AA181761E57422E69C918A0 /* include */ = {
+		CCB1A6561E23AD8000ADCB8B /* TimeToGate */ = {
 			isa = PBXGroup;
 			children = (
-				0E3ED1709F6519010BD7BD9ABF8E4B6C /* TimeToGate */,
+				CCB1A6571E23AD8000ADCB8B /* Classes */,
+				CCB1A65C1E23AD8000ADCB8B /* libTimeToGate.a */,
 			);
-			name = include;
+			path = TimeToGate;
+			sourceTree = "<group>";
+		};
+		CCB1A6571E23AD8000ADCB8B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1A6581E23AD8000ADCB8B /* .gitkeep */,
+				CCB1A6591E23AD8000ADCB8B /* include */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CCB1A6591E23AD8000ADCB8B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1A65A1E23AD8000ADCB8B /* TimeToGate */,
+			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		CCB1A65A1E23AD8000ADCB8B /* TimeToGate */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1A65B1E23AD8000ADCB8B /* TimeToGateManager.h */,
+			);
+			path = TimeToGate;
 			sourceTree = "<group>";
 		};
 		DFAF8A0F46E67793E09C5DB95D1E6DFB /* Support Files */ = {
@@ -192,25 +210,6 @@
 			path = "Example/Pods/Target Support Files/TimeToGate";
 			sourceTree = "<group>";
 		};
-		F4B64C92BC155FAB7017D3B58154CAD4 /* TimeToGate */ = {
-			isa = PBXGroup;
-			children = (
-				FC716DCAB611C30330A8EE62A4E01F73 /* Classes */,
-			);
-			name = TimeToGate;
-			path = TimeToGate;
-			sourceTree = "<group>";
-		};
-		FC716DCAB611C30330A8EE62A4E01F73 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3421C81EC7B73E008817DEDB6D98EEDE /* libTimeToGate.a */,
-				DB6C88034AA181761E57422E69C918A0 /* include */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -219,7 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3321D3F07750583890D60713AC567D /* TimeToGate-umbrella.h in Headers */,
-				BAA0436963E2E5CA9791732A23CD1466 /* TimeToGateManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77289F9D68BF7BC6A73C995A1958F314 /* Pods-TimeToGate_Tests-umbrella.h in Headers */,
+				CCB1A65D1E23AD8000ADCB8B /* TimeToGateManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16ABE21C2E3E67915209B1B8AFD9D5B8 /* libTimeToGate.a in Sources */,
 				289D6A0BC4ABDD65EEDCDFEF2FB755F3 /* TimeToGate-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

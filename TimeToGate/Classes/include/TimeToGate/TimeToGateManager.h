@@ -2,7 +2,7 @@
 //  TimeToGateManager.h
 //  TimeToGate
 //
-//  Created by Issa Al Zayed on 7/19/16.
+//  Created by ITX on 7/19/16.
 //  Copyright © 2016 ITX. All rights reserved.
 //
 
@@ -13,12 +13,12 @@
 
 @interface TimeToGateManager : NSObject
 
--(NSString *)SDKVersion;
+-(NSString *) SDKVersion;
 + (TimeToGateManager *) sharedManager;
 
 @property (strong, nonatomic) NSString *SITA_WalkTime_Key;
 @property (strong, nonatomic) NSString *SITA_WaitTime_Key;
-@property (strong, nonatomic) NSString *Google_Directions_Key;
+@property (strong, nonatomic) NSString *Google_Distance_Matrix_Key;
 
 @property NSUInteger timeOut;
 
