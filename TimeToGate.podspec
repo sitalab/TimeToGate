@@ -8,14 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimeToGate'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'SITA T2G SDK.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 SITA T2G SDK will provide your application the ability to calculate the time to gate (in minutes) from a specified location to a specified agate at a specific airport.
@@ -24,7 +18,6 @@ The calculation will respond with a breakdown of the total time depending on var
                        DESC
 
   s.homepage         = 'https://github.com/sitalab/TimeToGate'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'safaakhalaf' => 'safaa@itx.com.lb' }
   s.source           = { :git => 'https://github.com/sitalab/TimeToGate.git', :tag => s.version.to_s }
@@ -40,5 +33,5 @@ The calculation will respond with a breakdown of the total time depending on var
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'CoreLocation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_libraries = 'TimeToGate/libTimeToGate.a'
 end

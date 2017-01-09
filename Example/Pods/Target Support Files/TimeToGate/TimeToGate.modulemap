@@ -1,0 +1,6 @@
+framework module TimeToGate {
+  umbrella header "TimeToGate-umbrella.h"
+
+  export *
+  module * { export * }
+}

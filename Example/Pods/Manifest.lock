@@ -1,0 +1,16 @@
+PODS:
+  - TimeToGate (1.0.1)
+
+DEPENDENCIES:
+  - TimeToGate (from `../`)
+
+EXTERNAL SOURCES:
+  TimeToGate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TimeToGate: 7206aa7008c7a4f0a739f8d1a236cc56e5200ef6
+
+PODFILE CHECKSUM: 2e458fc4541c6c2658f8a8c2a33a2a17c8bcec47
+
+COCOAPODS: 1.1.1
