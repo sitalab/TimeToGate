@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimeToGate'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'SITA T2G SDK.'
 
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ SITA T2G SDK will provide your application the ability to calculate the time to 
 The calculation will respond with a breakdown of the total time depending on various segments of the journey with various confidence levels for each segment
 .
                        DESC
-
+ 
   s.homepage         = 'https://github.com/sitalab/TimeToGate-SDK-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'safaakhalaf' => 'safaa@itx.com.lb' }
