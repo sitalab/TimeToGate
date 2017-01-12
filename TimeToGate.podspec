@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimeToGate'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'SITA T2G SDK.'
 
   s.description      = <<-DESC
